@@ -2,5 +2,5 @@ fastapi
 uvicorn
 transformers
 torch
-bitsandbytes
 accelerate
+gradio
