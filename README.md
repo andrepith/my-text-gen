@@ -1,5 +1,12 @@
-# TinyLlama Chatbot
+# TinyLlama FastAPI
 
-A Hugging Face Space demo using TinyLlama-1.1B-Chat-v1.0 with Transformers and Gradio.
+This is a FastAPI service for TinyLlama-1.1B-Chat-v1.0 served via Hugging Face Spaces using Docker.
 
-⚠️ Running on CPU — expect slower responses!
+## Endpoint
+
+POST `/api/chat`
+
+```json
+{
+  "prompt": "Tell me a story."
+}
